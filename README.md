@@ -33,16 +33,3 @@ VSCode 기본설정(settings.json)에서 자동저장 기능을 비활성화 하
     "editor.formatOnSave": false,
   }
 ```
-
-
-
-```
-  vue router
-  npm i vue-router@next --save
-
-  Eslint && prettier 관련
-  npm i eslint-config-prettier@6.11.0 --save-dev
-  npm i eslint-plugin-prettier@3.1.4 --save-dev
-
-  
-```
