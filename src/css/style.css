@@ -5,13 +5,16 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 .inner{
   width: 1100px;
   margin: 0 auto;
   position: relative;
 }
 
-#nav {
+/* #nav {
   text-align: center;
   padding: 30px;
 }
@@ -23,24 +26,61 @@ body {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+} */
+.header{
+  position: relative;
+  height: 100px;
+  display: flex;
+  padding : 12px 12px 0px 12px;
+  margin : 20px 0 0 0;
 }
-
+.headRouter{
+  color: white!important;
+  font-size: 25px;
+  
+}
 .title {
+  color: white;
+  background-color: #2c3e50 ;
+  width: 50%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color : wheat
+}
+
+.about{
+  background-color: #6582a0 ;
+  width: 50%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBtn{
+  background-size: cover;
+}
+.gameBox {
+  position: relative;
+}
+.tag {
+  background-color :#2c3e50;
   position: absolute;
-  width: 500px;
-  left: 50%;
-  top: 50%;
-  margin-left: calc(500px / -2);
-  margin-top: calc(500px / -2);
+  width: 100px;
+  height: 30px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  border-radius: 10px;
   text-align: center;
+  line-height: 30px;
+  color:white
 }
-
-.home .inner{
-  height: 900px;
-  background-color: aquamarine;
+.container {
+  background-color :#2c3e50;
 }
-
-.about .inner{
-  height: 900px;
-  background-color: coral;
+.body{
+  padding : 0px 12px 0px 12px;
 }
