@@ -16,6 +16,11 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/hyunwookwon',
+    name: 'HyunwooKwon',
+    component: () => import('../views/HyunwooKwon/KHWBoard.vue'),
+  },
 ];
 
 const router = new VueRouter({

@@ -2,13 +2,13 @@
   <div>
     <v-app>
       <div class="header">
-        <div class="title">
+        <div class="board-title">
           <router-link to="/" class="headRouter">게임보드</router-link>
         </div>
-        <div class="about">
+        <div class="about-title">
           <!--  |
           <router-link to="/about">About</router-link> -->
-          <router-link to="about" class="headRouter">어바웃어스</router-link>
+          <router-link to="/about" class="headRouter">어바웃어스</router-link>
         </div>
       </div>
       <div class="body">
